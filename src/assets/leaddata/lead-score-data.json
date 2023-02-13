@@ -1,0 +1,1279 @@
+[
+    {
+        "id": 1,
+        "name": "State",
+        "slug": "property_state",
+        "operator": [
+            {
+                "id": 3,
+                "slug": "is_equal_to_any_of",
+                "name": "is equal to any of",
+                "input_type": "multi_select"
+            },
+            {
+                "id": 4,
+                "slug": "not_equal_to_any_of",
+                "name": "not equal to any of",
+                "input_type": "multi_select"
+            }
+        ],
+        "element_type": "dropdown",
+        "is_searchable": true,
+        "possible_values": [
+            {
+                "state_code": "AK",
+                "id": "AK"
+            },
+            {
+                "state_code": "AL",
+                "id": "AL"
+            },
+            {
+                "state_code": "AR",
+                "id": "AR"
+            },
+            {
+                "state_code": "AZ",
+                "id": "AZ"
+            },
+            {
+                "state_code": "CA",
+                "id": "CA"
+            },
+            {
+                "state_code": "CO",
+                "id": "CO"
+            },
+            {
+                "state_code": "CT",
+                "id": "CT"
+            },
+            {
+                "state_code": "DC",
+                "id": "DC"
+            },
+            {
+                "state_code": "DE",
+                "id": "DE"
+            },
+            {
+                "state_code": "FL",
+                "id": "FL"
+            },
+            {
+                "state_code": "GA",
+                "id": "GA"
+            },
+            {
+                "state_code": "HI",
+                "id": "HI"
+            },
+            {
+                "state_code": "IA",
+                "id": "IA"
+            },
+            {
+                "state_code": "ID",
+                "id": "ID"
+            },
+            {
+                "state_code": "IL",
+                "id": "IL"
+            },
+            {
+                "state_code": "IN",
+                "id": "IN"
+            },
+            {
+                "state_code": "KS",
+                "id": "KS"
+            },
+            {
+                "state_code": "KY",
+                "id": "KY"
+            },
+            {
+                "state_code": "LA",
+                "id": "LA"
+            },
+            {
+                "state_code": "MA",
+                "id": "MA"
+            },
+            {
+                "state_code": "MD",
+                "id": "MD"
+            },
+            {
+                "state_code": "ME",
+                "id": "ME"
+            },
+            {
+                "state_code": "MI",
+                "id": "MI"
+            },
+            {
+                "state_code": "MN",
+                "id": "MN"
+            },
+            {
+                "state_code": "MO",
+                "id": "MO"
+            },
+            {
+                "state_code": "MS",
+                "id": "MS"
+            },
+            {
+                "state_code": "MT",
+                "id": "MT"
+            },
+            {
+                "state_code": "NC",
+                "id": "NC"
+            },
+            {
+                "state_code": "ND",
+                "id": "ND"
+            },
+            {
+                "state_code": "NE",
+                "id": "NE"
+            },
+            {
+                "state_code": "NH",
+                "id": "NH"
+            },
+            {
+                "state_code": "NJ",
+                "id": "NJ"
+            },
+            {
+                "state_code": "NM",
+                "id": "NM"
+            },
+            {
+                "state_code": "NV",
+                "id": "NV"
+            },
+            {
+                "state_code": "NY",
+                "id": "NY"
+            },
+            {
+                "state_code": "OH",
+                "id": "OH"
+            },
+            {
+                "state_code": "OK",
+                "id": "OK"
+            },
+            {
+                "state_code": "OR",
+                "id": "OR"
+            },
+            {
+                "state_code": "PA",
+                "id": "PA"
+            },
+            {
+                "state_code": "RI",
+                "id": "RI"
+            },
+            {
+                "state_code": "SC",
+                "id": "SC"
+            },
+            {
+                "state_code": "SD",
+                "id": "SD"
+            },
+            {
+                "state_code": "TN",
+                "id": "TN"
+            },
+            {
+                "state_code": "TX",
+                "id": "TX"
+            },
+            {
+                "state_code": "UT",
+                "id": "UT"
+            },
+            {
+                "state_code": "VA",
+                "id": "VA"
+            },
+            {
+                "state_code": "VT",
+                "id": "VT"
+            },
+            {
+                "state_code": "WA",
+                "id": "WA"
+            },
+            {
+                "state_code": "WI",
+                "id": "WI"
+            },
+            {
+                "state_code": "WV",
+                "id": "WV"
+            },
+            {
+                "state_code": "WY",
+                "id": "WY"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "City",
+        "slug": "property_city",
+        "operator": [
+            {
+                "id": 14,
+                "slug": "is_having",
+                "name": "is having",
+                "input_type": "single"
+            },
+            {
+                "id": 15,
+                "slug": "is_not_having",
+                "name": "is not having",
+                "input_type": "single"
+            }
+        ],
+        "element_type": "text",
+        "is_searchable": false,
+        "possible_values": null
+    },
+    {
+        "id": 3,
+        "name": "County",
+        "slug": "property_county",
+        "operator": [
+            {
+                "id": 14,
+                "slug": "is_having",
+                "name": "is having",
+                "input_type": "single"
+            },
+            {
+                "id": 15,
+                "slug": "is_not_having",
+                "name": "is not having",
+                "input_type": "single"
+            }
+        ],
+        "element_type": "text",
+        "is_searchable": false,
+        "possible_values": null
+    },
+    {
+        "id": 4,
+        "name": "Year Built",
+        "slug": "year_built",
+        "operator": [
+            {
+                "id": 8,
+                "slug": "is_less_than",
+                "name": "is less than",
+                "input_type": "single"
+            },
+            {
+                "id": 9,
+                "slug": "is_greater_than",
+                "name": "is greater than",
+                "input_type": "single"
+            },
+            {
+                "id": 16,
+                "slug": "is_known",
+                "name": "is known",
+                "input_type": "single"
+            },
+            {
+                "id": 17,
+                "slug": "is_not_known",
+                "name": "is not known",
+                "input_type": "single"
+            },
+            {
+                "id": 7,
+                "slug": "in_between",
+                "name": "in between",
+                "input_type": "multiple"
+            }
+        ],
+        "element_type": "numeric",
+        "is_searchable": false,
+        "possible_values": null
+    },
+    {
+        "id": 5,
+        "name": "Property Type",
+        "slug": "property_type_detail",
+        "operator": [
+            {
+                "id": 3,
+                "slug": "is_equal_to_any_of",
+                "name": "is equal to any of",
+                "input_type": "multi_select"
+            },
+            {
+                "id": 4,
+                "slug": "not_equal_to_any_of",
+                "name": "not equal to any of",
+                "input_type": "multi_select"
+            }
+        ],
+        "element_type": "dropdown",
+        "is_searchable": true,
+        "possible_values": [
+            {
+                "id": "General",
+                "name": "General"
+            },
+            {
+                "id": "Pipeline+or+Right-of-Way",
+                "name": "Pipeline or Right-of-Way"
+            },
+            {
+                "id": "Rail+Right-of-Way+and+Track",
+                "name": "Rail Right-of-Way & Track"
+            },
+            {
+                "id": "Road+Right-of-Way",
+                "name": "Road Right-of-Way"
+            },
+            {
+                "id": "Utilities",
+                "name": "Utilities"
+            },
+            {
+                "id": "Sub-Surface+Rights",
+                "name": "Sub-Surface Rights"
+            },
+            {
+                "id": "Surface+Rights",
+                "name": "Surface Rights"
+            },
+            {
+                "id": "Leasehold+Rights",
+                "name": "Leasehold Rights"
+            },
+            {
+                "id": "Possessory+Interest",
+                "name": "Possessory Interest"
+            },
+            {
+                "id": "Petroleum+%26+Gas+Wells",
+                "name": "Petroleum & Gas Wells"
+            },
+            {
+                "id": "Right-of-Way",
+                "name": "Right-of-Way"
+            },
+            {
+                "id": "Easement",
+                "name": "Easement"
+            },
+            {
+                "id": "Common+Area",
+                "name": "Common Area"
+            },
+            {
+                "id": "Royalty+Interest",
+                "name": "Royalty Interest"
+            },
+            {
+                "id": "Working+Interest",
+                "name": "Working Interest"
+            },
+            {
+                "id": "Parcel+with+Improvements",
+                "name": "Parcel with Improvements"
+            },
+            {
+                "id": "Personal+Property",
+                "name": "Personal Property"
+            },
+            {
+                "id": "Equipment+or+Supplies",
+                "name": "Equipment or Supplies"
+            },
+            {
+                "id": "Inventory",
+                "name": "Inventory"
+            },
+            {
+                "id": "Structures+on+Leased+Land",
+                "name": "Structures on Leased Land"
+            },
+            {
+                "id": "Single+Family",
+                "name": "Single-Family"
+            },
+            {
+                "id": "Townhouse",
+                "name": "Townhouse"
+            },
+            {
+                "id": "Cluster+Home",
+                "name": "Cluster Home"
+            },
+            {
+                "id": "Condominium+Unit",
+                "name": "Condominium Unit"
+            },
+            {
+                "id": "Cooperative+Unit",
+                "name": "Cooperative Unit"
+            },
+            {
+                "id": "Mobile%2FManufactured+Home",
+                "name": "Mobile/Manufactured Home"
+            },
+            {
+                "id": "Row+House",
+                "name": "Row House"
+            },
+            {
+                "id": "Rural%2FAgricultural+Residence",
+                "name": "Rural/Agricultural Residence"
+            },
+            {
+                "id": "Planned+Unit+Development",
+                "name": "Planned Unit Development"
+            },
+            {
+                "id": "Residential+Common+Area",
+                "name": "Residential Common Area"
+            },
+            {
+                "id": "Timeshare",
+                "name": "Timeshare"
+            },
+            {
+                "id": "Seasonal%2C+Cabin%2C+Vacation+Residence",
+                "name": "Seasonal/Cabin/Vacation Residence"
+            },
+            {
+                "id": "Bungalow",
+                "name": "Bungalow"
+            },
+            {
+                "id": "Zero+Lot+Line",
+                "name": "Zero Lot Line"
+            },
+            {
+                "id": "Miscellaneous+Residential+Improvement",
+                "name": "Miscellaneous Residential Improvement"
+            },
+            {
+                "id": "Module+or+Prefabricated+Homes",
+                "name": "Module or Prefabricated Homes"
+            },
+            {
+                "id": "Patio+Home",
+                "name": "Patio Home"
+            },
+            {
+                "id": "Garden+Home",
+                "name": "Garden Home"
+            },
+            {
+                "id": "Landominium",
+                "name": "Landominium"
+            },
+            {
+                "id": "Residential+Income+%28Multi-Family%29",
+                "name": "Residential Income (Multi-Family)"
+            },
+            {
+                "id": "Duplex",
+                "name": "Duplex"
+            },
+            {
+                "id": "Triplex",
+                "name": "Triplex"
+            },
+            {
+                "id": "Quadruplex",
+                "name": "Quadruplex"
+            },
+            {
+                "id": "Apartment+House+%285%2B+Units%29",
+                "name": "Apartment House (5+ Units)"
+            },
+            {
+                "id": "Garden+Apartment%2C+Court+Apartment+%285%2B+Units%29",
+                "name": "Garden Apartment or Court Apartment (5+ Units)"
+            },
+            {
+                "id": "Highrise+Apartment",
+                "name": "High-Rise Apartment"
+            },
+            {
+                "id": "Boarding+House+or+Rooming+House",
+                "name": "Boarding House or Rooming House"
+            },
+            {
+                "id": "Mobile+Home+Park+or+Tailer+Park",
+                "name": "Mobile Home Park or Trailer Park"
+            },
+            {
+                "id": "Multi-Family+Dwelling",
+                "name": "Multi-Family Dwelling"
+            },
+            {
+                "id": "Apartments",
+                "name": "Apartments"
+            },
+            {
+                "id": "Dormitory",
+                "name": "Dormitory"
+            },
+            {
+                "id": "Residential+Condominium+Development",
+                "name": "Residential Condominium Development"
+            },
+            {
+                "id": "Condominium+Building",
+                "name": "Condominium Building"
+            },
+            {
+                "id": "Residential+Parking+Garage",
+                "name": "Residential Parking Garage"
+            },
+            {
+                "id": "Residential+Storage+Space",
+                "name": "Residential Storage Space"
+            },
+            {
+                "id": "Retail+Stores",
+                "name": "Retail Stores"
+            },
+            {
+                "id": "Store+%28Multi-Story%29",
+                "name": "Store (Multi-Story)"
+            },
+            {
+                "id": "Store%2FOffice",
+                "name": "Store/Office"
+            },
+            {
+                "id": "Department+Store",
+                "name": "Department Store"
+            },
+            {
+                "id": "Grocery+or+Supermarket",
+                "name": "Grocery or Supermarket"
+            },
+            {
+                "id": "Regional+Shopping+Center+or+Mall",
+                "name": "Regional Shopping Center or Mall"
+            },
+            {
+                "id": "Community+Shopping+Center%2C+Plaza+or+Mini-Mall",
+                "name": "Community Shopping Center, Plaza or Mini-Mall"
+            },
+            {
+                "id": "Neighborhood+Shopping+Center%2C+Strip+Mall+or+Enterprise+Zone",
+                "name": "Neighborhood Shopping Center, Strip Mall or Enterprise Zone"
+            },
+            {
+                "id": "Veterinary+Clinic+or+Animal+Hospital",
+                "name": "Veterinary Clinic or Animal Hospital"
+            },
+            {
+                "id": "Restaurant",
+                "name": "Restaurant"
+            },
+            {
+                "id": "Fast+Food+Restaurant+or+Drive-Through",
+                "name": "Fast Food Restaurant or Drive-Through"
+            },
+            {
+                "id": "Bar+or+Tavern",
+                "name": "Bar or Tavern"
+            },
+            {
+                "id": "Convenience+Store",
+                "name": "Convenience Store"
+            },
+            {
+                "id": "Service+Station",
+                "name": "Service Station"
+            },
+            {
+                "id": "Service+Station+with+Food+Mart",
+                "name": "Service Station with Food Mart"
+            },
+            {
+                "id": "Vehicle+Rental+and+Sales",
+                "name": "Vehicle Rental & Sales"
+            },
+            {
+                "id": "Auto+Repair+or+Garage",
+                "name": "Auto Repair or Garage"
+            },
+            {
+                "id": "Car+Wash",
+                "name": "Car Wash"
+            },
+            {
+                "id": "Service+Shop",
+                "name": "Service Shop"
+            },
+            {
+                "id": "Florist%2C+Nursery+or+Greenhouse",
+                "name": "Florist, Nursery or Greenhouse"
+            },
+            {
+                "id": "Wholesale+Outlet+or+Discount+Store",
+                "name": "Wholesale Outlet or Discount Store"
+            },
+            {
+                "id": "Mini-Warehouse+or+Self-Storage",
+                "name": "Mini-Warehouse or Self-Storage"
+            },
+            {
+                "id": "Day+Care+or+Preschool+Facility",
+                "name": "Daycare or Preschool Facility"
+            },
+            {
+                "id": "Motel",
+                "name": "Motel"
+            },
+            {
+                "id": "Hotel",
+                "name": "Hotel"
+            },
+            {
+                "id": "Parking+Garage+or+Structure",
+                "name": "Parking Garage or Structure"
+            },
+            {
+                "id": "Parking+Lot",
+                "name": "Parking Lot"
+            },
+            {
+                "id": "Funeral+Home+or+Mortuary",
+                "name": "Funeral Home or Mortuary"
+            },
+            {
+                "id": "Hotel+Resort",
+                "name": "Hotel Resort"
+            },
+            {
+                "id": "Hotel%2FMotel",
+                "name": "Hotel/Motel"
+            },
+            {
+                "id": "Gas+Station",
+                "name": "Gas Station"
+            },
+            {
+                "id": "Retail%2FResidential+%28Mixed+Use%29",
+                "name": "Retail/Residential (Mixed Use)"
+            },
+            {
+                "id": "Commercial+Building%2C+Mail+Order+Showroom+or+Commercial+Warehouse",
+                "name": "Commercial Building, Mail Order Showroom or Commercial Warehouse"
+            },
+            {
+                "id": "Commercial%2FOffice%2FResidential+%28Mixed+Use%29",
+                "name": "Commercial/Office/Residential (Mixed Use)"
+            },
+            {
+                "id": "Nightclub+or+Cocktail+Lounge",
+                "name": "Nightclub or Cocktail Lounge"
+            },
+            {
+                "id": "Commercial+Condominium+%28Not+Offices%29",
+                "name": "Commercial Condominium (Not Offices)"
+            },
+            {
+                "id": "Drug+Store+or+Pharmacy",
+                "name": "Drugstore or Pharmacy"
+            },
+            {
+                "id": "Barber+or+Hair+Salon",
+                "name": "Barber or Hair Salon"
+            },
+            {
+                "id": "Commercial+Office",
+                "name": "Commercial Office"
+            },
+            {
+                "id": "Professional+Building",
+                "name": "Professional Building"
+            },
+            {
+                "id": "Office+Building+%28General%29",
+                "name": "Office Building (General)"
+            },
+            {
+                "id": "Dental+Building",
+                "name": "Dental Building"
+            },
+            {
+                "id": "Medical+Building+or+Clinic",
+                "name": "Medical Building or Clinic"
+            },
+            {
+                "id": "Financial+Building+or+Bank",
+                "name": "Financial Building or Bank"
+            },
+            {
+                "id": "Condominium+Offices",
+                "name": "Condominium Offices"
+            },
+            {
+                "id": "Skyscraper+or+Highrise+%28Commercial+Offices%29",
+                "name": "Skyscraper or High-Rise (Commercial Offices)"
+            },
+            {
+                "id": "Commerical%2FIndustrial+%28Mixed+Use%29",
+                "name": "Commerical/Industrial (Mixed Use)"
+            },
+            {
+                "id": "Recreational%2FEntertainment",
+                "name": "Recreational/Entertainment"
+            },
+            {
+                "id": "Recreation+Center",
+                "name": "Recreation Center"
+            },
+            {
+                "id": "Boat+Slips%2C+Marina+or+Yacht+Club",
+                "name": "Boat Slips, Marina or Yacht Club"
+            },
+            {
+                "id": "Club%2C+Lodge+or+Professional+Association",
+                "name": "Club, Lodge or Professional Association"
+            },
+            {
+                "id": "Museum%2C+Library+or+Art+Gallery",
+                "name": "Museum, Library or Art Gallery"
+            },
+            {
+                "id": "Country+Club",
+                "name": "Country Club"
+            },
+            {
+                "id": "Gym+or+Health+Spa",
+                "name": "Gym or Health Spa"
+            },
+            {
+                "id": "Campground+or+RV+Park",
+                "name": "Campground or RV Park"
+            },
+            {
+                "id": "Theater",
+                "name": "Theater"
+            },
+            {
+                "id": "Park%2C+Playground+or+Picnic+Area",
+                "name": "Park, Playground or Picnic Area"
+            },
+            {
+                "id": "Golf+Course",
+                "name": "Golf Course"
+            },
+            {
+                "id": "Light+Manufacturing",
+                "name": "Light Manufacturing"
+            },
+            {
+                "id": "Light+Industrial",
+                "name": "Light Industrial"
+            },
+            {
+                "id": "Warehouse+%28Industrial%29",
+                "name": "Warehouse (Industrial)"
+            },
+            {
+                "id": "Storage+Yard",
+                "name": "Storage Yard"
+            },
+            {
+                "id": "R%26D%2C+Laboratory+or+Research+Facility",
+                "name": "R&D, Laboratory or Research Facility"
+            },
+            {
+                "id": "Industrial+Park",
+                "name": "Industrial Park"
+            },
+            {
+                "id": "Industrial+Loft+Building",
+                "name": "Industrial Loft Building"
+            },
+            {
+                "id": "Construction+or+Contracting+Services",
+                "name": "Construction or Contracting Services"
+            },
+            {
+                "id": "Heavy+Industrial",
+                "name": "Heavy Industrial"
+            },
+            {
+                "id": "Distribution+Warehouse",
+                "name": "Distribution Warehouse"
+            },
+            {
+                "id": "Mining+Facility",
+                "name": "Mining Facility"
+            },
+            {
+                "id": "Factory",
+                "name": "Factory"
+            },
+            {
+                "id": "Processing+Plant",
+                "name": "Processing Plant"
+            },
+            {
+                "id": "Lumber+or+Building+Materials+Yard",
+                "name": "Lumber or Building Materials Yard"
+            },
+            {
+                "id": "Waste+Disposal+or+Sewage+Plant",
+                "name": "Waste Disposal or Sewage Plant"
+            },
+            {
+                "id": "Quarry",
+                "name": "Quarry"
+            },
+            {
+                "id": "Heavy+Manufacturing",
+                "name": "Heavy Manufacturing"
+            },
+            {
+                "id": "Bulk+Storage+Tanks",
+                "name": "Bulk Storage Tanks"
+            },
+            {
+                "id": "Transportation+%26+Communications",
+                "name": "Transportation & Communications"
+            },
+            {
+                "id": "Airport",
+                "name": "Airport"
+            },
+            {
+                "id": "Railroad",
+                "name": "Railroad"
+            },
+            {
+                "id": "Freeway+or+State+Highway",
+                "name": "Freeway or State Highway"
+            },
+            {
+                "id": "Road%2C+Street+or+Bridge",
+                "name": "Road, Street or Bridge"
+            },
+            {
+                "id": "Telephone+or+Telegraph+Facility",
+                "name": "Telephone or Telegraph Facility"
+            },
+            {
+                "id": "Radio+or+TV+Station",
+                "name": "Radio or TV Station"
+            },
+            {
+                "id": "Truck+Terminal",
+                "name": "Truck Terminal"
+            },
+            {
+                "id": "Harbor+%26+Marine+Transportation",
+                "name": "Harbor & Marine Transportation"
+            },
+            {
+                "id": "Agricultural%2FRural",
+                "name": "Agricultural/Rural"
+            },
+            {
+                "id": "Farm",
+                "name": "Farm"
+            },
+            {
+                "id": "Ranch",
+                "name": "Ranch"
+            },
+            {
+                "id": "Range+Land",
+                "name": "Range Land"
+            },
+            {
+                "id": "Crop+Land%2C+Fields+or+Row+Crops",
+                "name": "Crop Land, Fields or Row Crops"
+            },
+            {
+                "id": "Orchard",
+                "name": "Orchard"
+            },
+            {
+                "id": "Vineyard",
+                "name": "Vineyard"
+            },
+            {
+                "id": "Dairy+Farm",
+                "name": "Dairy Farm"
+            },
+            {
+                "id": "Timberland+or+Forest",
+                "name": "Timberland or Forest"
+            },
+            {
+                "id": "Pasture+or+Meadow",
+                "name": "Pasture or Meadow"
+            },
+            {
+                "id": "Miscellaneous+Structures",
+                "name": "Miscellaneous Structures"
+            },
+            {
+                "id": "Livestock+Parcel",
+                "name": "Livestock Parcel"
+            },
+            {
+                "id": "Horticulture+or+Growing+Houses",
+                "name": "Horticulture or Growing Houses"
+            },
+            {
+                "id": "Truck+Crops",
+                "name": "Truck Crops"
+            },
+            {
+                "id": "Resevoir+or+Water+Supply",
+                "name": "Resevoir or Water Supply"
+            },
+            {
+                "id": "Irrigation+or+Flood+Control",
+                "name": "Irrigation or Flood Control"
+            },
+            {
+                "id": "Natural+Resources",
+                "name": "Natural Resources"
+            },
+            {
+                "id": "Rural+Improved+%28Non-Residential%29",
+                "name": "Rural Improved (Non-Residential)"
+            },
+            {
+                "id": "Residential",
+                "name": "Residential"
+            },
+            {
+                "id": "Commercial",
+                "name": "Commercial"
+            },
+            {
+                "id": "Industrial",
+                "name": "Industrial"
+            },
+            {
+                "id": "Private+Preserve+or+Open+Space",
+                "name": "Private Preserve or Open Space"
+            },
+            {
+                "id": "Institutional",
+                "name": "Institutional"
+            },
+            {
+                "id": "Government",
+                "name": "Government"
+            },
+            {
+                "id": "Multi-Family",
+                "name": "Multi-Family"
+            },
+            {
+                "id": "Rural%2FAgricultural",
+                "name": "Rural/Agricultural"
+            },
+            {
+                "id": "Waste+Land%2C+Marsh+or+Swamp",
+                "name": "Waste Land, Marsh or Swamp"
+            },
+            {
+                "id": "Recreational",
+                "name": "Recreational"
+            },
+            {
+                "id": "Unusable+Land",
+                "name": "Unusable Land"
+            },
+            {
+                "id": "Under+Construction",
+                "name": "Under Construction"
+            },
+            {
+                "id": "Unspecified+Improvement",
+                "name": "Unspecified Improvement"
+            },
+            {
+                "id": "Exempt",
+                "name": "Exempt"
+            },
+            {
+                "id": "Special+Purpose",
+                "name": "Special Purpose"
+            },
+            {
+                "id": "State+Board+of+Equalization+-+Special+Assessments",
+                "name": "State Board of Equalization - Special Assessments"
+            },
+            {
+                "id": "Regulating+Districts+%26+Assessments",
+                "name": "Regulating Districts & Assessments"
+            },
+            {
+                "id": "Redevelopment+Agency+or+Zone",
+                "name": "Redevelopment Agency or Zone"
+            },
+            {
+                "id": "Centrally+Assessed",
+                "name": "Centrally Assessed"
+            },
+            {
+                "id": "Full+or+Partial",
+                "name": "Full or Partial"
+            },
+            {
+                "id": "Native+American+Lands",
+                "name": "Native American Lands"
+            },
+            {
+                "id": "Institutional+%28General%29",
+                "name": "Institutional (General)"
+            },
+            {
+                "id": "Religious%2C+Church%2C+Worship",
+                "name": "Religious/Church/Worship"
+            },
+            {
+                "id": "Parochial+or+Private+School",
+                "name": "Parochial or Private School"
+            },
+            {
+                "id": "College%2C+University+or+Vocational+School",
+                "name": "College, University or Vocational School"
+            },
+            {
+                "id": "Private+Hospital",
+                "name": "Private Hospital"
+            },
+            {
+                "id": "Medical+Clinic",
+                "name": "Medical Clinic"
+            },
+            {
+                "id": "Cemetery",
+                "name": "Cemetery"
+            },
+            {
+                "id": "Charitable+or+Fraternal+Organization",
+                "name": "Charitable or Fraternal Organization"
+            },
+            {
+                "id": "Private+Utility",
+                "name": "Private Utility"
+            },
+            {
+                "id": "Governmental+or+Public+Use",
+                "name": "Governmental or Public Use"
+            },
+            {
+                "id": "Military",
+                "name": "Military"
+            },
+            {
+                "id": "Forest",
+                "name": "Forest"
+            },
+            {
+                "id": "Public+School",
+                "name": "Public School"
+            },
+            {
+                "id": "Public+College+or+University",
+                "name": "Public College or University"
+            },
+            {
+                "id": "Post+Office",
+                "name": "Post Office"
+            },
+            {
+                "id": "Cultural+or+Historical",
+                "name": "Cultural or Historical"
+            },
+            {
+                "id": "Government+Administrative+Office",
+                "name": "Government Administrative Office"
+            },
+            {
+                "id": "Emergency",
+                "name": "Emergency"
+            },
+            {
+                "id": "Other+Exempt+Property",
+                "name": "Other Exempt Property"
+            },
+            {
+                "id": "City%2C+Municipal%2C+Town+or+Village+Owned",
+                "name": "City, Municipal, Town or Village Owned"
+            },
+            {
+                "id": "County+Owned",
+                "name": "County Owned"
+            },
+            {
+                "id": "State+Owned",
+                "name": "State Owned"
+            },
+            {
+                "id": "Federal+Property",
+                "name": "Federal Property"
+            },
+            {
+                "id": "Community+Center",
+                "name": "Community Center"
+            },
+            {
+                "id": "Public+Utility",
+                "name": "Public Utility"
+            },
+            {
+                "id": "Welfare%2C+Social+Service+or+Low+Income+Housing",
+                "name": "Welfare, Social Service or Low Income Housing"
+            },
+            {
+                "id": "Public+Hospital",
+                "name": "Public Hospital"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "List Count",
+        "slug": "lists_count",
+        "operator": [
+            {
+                "id": 1,
+                "slug": "is_equal_to",
+                "name": "is equal to",
+                "input_type": "single"
+            },
+            {
+                "id": 7,
+                "slug": "in_between",
+                "name": "in between",
+                "input_type": "multiple"
+            },
+            {
+                "id": 8,
+                "slug": "is_less_than",
+                "name": "is less than",
+                "input_type": "single"
+            },
+            {
+                "id": 9,
+                "slug": "is_greater_than",
+                "name": "is greater than",
+                "input_type": "single"
+            }
+        ],
+        "element_type": "numeric",
+        "is_searchable": false,
+        "possible_values": null
+    },
+    {
+        "id": 7,
+        "name": "List Name",
+        "slug": "list_ids",
+        "operator": [
+            {
+                "id": 3,
+                "slug": "is_equal_to_any_of",
+                "name": "is equal to any of",
+                "input_type": "multi_select"
+            },
+            {
+                "id": 4,
+                "slug": "not_equal_to_any_of",
+                "name": "not equal to any of",
+                "input_type": "multi_select"
+            }
+        ],
+        "element_type": "dropdown",
+        "is_searchable": true,
+        "possible_values": [
+            {
+                "id": 23708,
+                "name": "pqr fnsiogiorghiorhigaer rkhndhrdhni wwgrhdhthjtjrj6"
+            },
+            {
+                "id": 23718,
+                "name": "BatchDriven Migration"
+            },
+            {
+                "id": 23745,
+                "name": "test"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Cash Purchase",
+        "slug": "cash_buyer",
+        "operator": [
+            {
+                "id": 1,
+                "slug": "is_equal_to",
+                "name": "is equal to",
+                "input_type": "single"
+            }
+        ],
+        "element_type": "dropdown",
+        "is_searchable": false,
+        "possible_values": [
+            {
+                "id": "Yes",
+                "name": "Yes"
+            },
+            {
+                "id": "No",
+                "name": "No"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Pre-Foreclosure Status",
+        "slug": "preforeclosure",
+        "operator": [
+            {
+                "id": 1,
+                "slug": "is_equal_to",
+                "name": "is equal to",
+                "input_type": "single"
+            }
+        ],
+        "element_type": "dropdown",
+        "is_searchable": false,
+        "possible_values": [
+            {
+                "id": true,
+                "name": "True"
+            },
+            {
+                "id": false,
+                "name": "False"
+            }
+        ]
+    }
+]
