@@ -1,0 +1,8 @@
+<div class="overlay" *ngIf="loading">
+    <div class="overlay__inner">
+        <div class="overlay__content">
+            <span class="spinner"></span>
+            <div class="mt-3" *ngIf="loadingMessage">{{ loadingMessage }}</div>
+        </div>
+    </div>
+</div>

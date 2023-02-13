@@ -8,13 +8,13 @@ import { Employees } from '../employees.model';
   providedIn: 'root'
 })
 export class EmployeesService {
-  apiUri= environment.apiUrl +'entries';
+  apiUri= environment.apiUrl;
 
   constructor(private httpClient: HttpClient) {
   }
 
   getEmployeesData(): Observable<{count: number,entries: Employees[]}>{
-    return this.httpClient.get<{count: number,entries: Employees[]}>(this.apiUri);
+    return this.httpClient.get<{count: number,entries: Employees[]}>(this.apiUri +'entries');
   }
 
   getColumnSortKey(columnName: string, type: string) {
@@ -23,5 +23,9 @@ export class EmployeesService {
       columnSortKey = '-' + columnSortKey;
     }
     return columnSortKey;
+  }
+
+  getCategories(): Observable<{count: number,categories:string[]}>{
+    return this.httpClient.get<{count: number,categories:string[]}>(this.apiUri +'categories');
   }
 }

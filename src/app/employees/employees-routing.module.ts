@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'add', component: EmployeesAddEditComponent 
   },
+  {
+    path: 'edit/:id',
+    component: EmployeesAddEditComponent
+  }
 ];
 
 @NgModule({

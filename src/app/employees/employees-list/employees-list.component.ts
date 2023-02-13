@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Router } from '@angular/router';
 import { UserColumnList } from 'src/app/constants/table-column.constants';
 import { Employees } from 'src/app/core/models/employees.model';
 import { CommonService } from 'src/app/core/models/services/common.service';
@@ -15,14 +16,17 @@ export class EmployeesListComponent {
   columnIndex: number;
   sortTitle: string;
   @Input() public loading = true;
-  @Output() sort = new EventEmitter<string>();
   employeesData: Employees[] = [];
   sortCaption: string;
+  search:string = '';
+  auth:string = ''
+  isHttps:boolean = false
   sortIndex: number;
 
   constructor(
     private employeesService: EmployeesService,  
-    private commonService: CommonService  
+    private commonService: CommonService,
+    private router:Router  
   ){}
 
   ngOnInit(): void {
@@ -30,20 +34,17 @@ export class EmployeesListComponent {
   }
 
   getMarketingTemplatesData() {
-    let employeesData: Array<Employees> = [];
     this.loading = true;
     this.employeesService.getEmployeesData().subscribe(response => {
+      this.loading = false
       const employees = localStorage.getItem('employeData');
-      this.employeesData = response.entries;
       if (employees !== null) {
-        console.log(JSON.parse(employees));
-        
         this.employeesData = [...JSON.parse(employees),...this.employeesData]
-        console.log(employeesData);
+      }else{
+        localStorage.setItem('employeData',JSON.stringify(response.entries))
       }
-
     }, error => {
-      // this.loading = false;
+      this.loading = false
     })
   }
 
@@ -63,5 +64,14 @@ export class EmployeesListComponent {
         ...sortedData
       ];
     }
+  }
+
+  editEmployee(index:number){
+    this.router.navigate(['edit',index])
+  }
+
+  deleteEmployee(index:number){
+    this.employeesData.splice(index,1)
+    localStorage.setItem('employeData',JSON.stringify(this.employeesData))
   }
 }
